@@ -8,6 +8,6 @@ def test_home_page():
 
     heading = driver.find_element(By.TAG_NAME, "h1")
 
-    assert heading.text == "the-internet"
+    assert heading.text == "Welcome to the-internet"
 
     driver.quit()
